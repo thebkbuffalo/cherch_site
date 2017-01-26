@@ -12,3 +12,28 @@ video#bgvid {
   background: url('http://i.huffpost.com/gen/2060470/images/o-CHARLES-BARKLEY-facebook.jpg') no-repeat;
   background-size: cover;
 }
+
+.nav {
+  background-color: rgba(0,0,0,.7);
+  z-index: 1000;
+  position: absolute;
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: none;
+}
+
+.nav_icon {
+  font-size: 30px;
+  position: absolute;
+  z-index: 1000;
+  margin: 10px 0 0 18px;
+  color: white;
+}
+
+.nav a {
+  padding: 10px;
+  margin-bottom: 5px;
+  color: white;
+  text-decoration: none;
+}

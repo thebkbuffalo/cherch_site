@@ -3,5 +3,7 @@ $(document).ready(function(){
     this.load();
     this.play();
   });
-
+  $('.nav_icon').on('click', function(){
+    $('.nav').show();
+  })
 });
